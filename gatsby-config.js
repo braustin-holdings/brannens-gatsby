@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/brannens-gatsby`,
+  // pathPrefix: `/brannens-gatsby`,
   siteMetadata: {
     title: `Brannen's, Inc.`,
     siteUrl: `https://brannens.com`,
