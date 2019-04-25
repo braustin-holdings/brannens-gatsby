@@ -2,6 +2,7 @@ module.exports = {
   pathPrefix: `/brannens-gatsby`,
   siteMetadata: {
     title: `Brannen's, Inc.`,
+    siteUrl: `https://brannens.com`,
     description: `Brannen's | Fasteners, Tools, and Construction Supplies`,
     author: `@8ctopotamus`,
     urlTranslationsMap: [
