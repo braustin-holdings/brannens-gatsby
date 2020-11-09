@@ -66,15 +66,15 @@ const Header = ({ siteTitle, toggleLang, lang }) => {
               activeClassName="active">
           { renderTranslation({en: 'Home', es: 'Casa'}) }
         </Link>
-        <Link to={ renderTranslation({en: 'products', es: '/es/productos'}) }
+        <Link to={ renderTranslation({en: '/products', es: '/es/productos'}) }
               activeClassName="active">
           { renderTranslation({en: 'Products', es: 'Productos'}) }
         </Link>
-        <Link to={ renderTranslation({en: 'about-us', es: '/es/perfil-de-empresa'}) }
+        <Link to={ renderTranslation({en: '/about-us', es: '/es/perfil-de-empresa'}) }
               activeClassName="active">
           { renderTranslation({en: 'About Us', es: 'Perfil de empresa'}) }
         </Link>
-        <Link to={ renderTranslation({en: 'contact-us', es: '/es/contacto'}) }
+        <Link to={ renderTranslation({en: '/contact-us', es: '/es/contacto'}) }
               activeClassName="active">
           { renderTranslation({en: 'Contact Us', es: 'Contacto'}) }
         </Link>
